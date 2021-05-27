@@ -1,0 +1,13 @@
+package meuprojeto.reference;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ReferenceServerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ReferenceServerApplication.class, args);
+	}
+
+}
