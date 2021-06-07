@@ -27,4 +27,11 @@ public void setId(UUID id) {
 public void setName(String name) {
     this.name = name;
 }
+@Override
+    public String toString() {
+        return "UserBean{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
